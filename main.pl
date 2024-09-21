@@ -2,4 +2,4 @@
 :- assertz(file_search_path(foreign,'./')).
 main :-
     [foo],
-    say_hello('World').
+    create_window('World').
